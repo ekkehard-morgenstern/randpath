@@ -24,10 +24,12 @@ For an example of the quality of the pseudo random number generator, see enclose
 ## Building
 
 To compile the test programs, run the following commands:
+
 `gcc -Wall -o test_randseed test_randseed.c`
+
 `./build-test2-randseed`
 
-You have to install the GCC compiler (package "gcc" or "build-essential" or similar) and the "libpng" development package (package "ligpng-dev" or similar).
+You have to install the GCC compiler (package "gcc" or "build-essential" or similar) and the "libpng" development package (package "libpng-dev" or similar).
 The source code has been written for and tested with Linux only.
 
 ## Usage
