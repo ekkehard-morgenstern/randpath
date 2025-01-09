@@ -51,11 +51,11 @@ This test program makes it easy to evaluate the quality of the distribution of g
 
 ### rs_init()
 
-Initialize a seed with data from "/dev/urandom". The sv and ev vectors are set to constant values (that I have sourced from "/dev/urandom" as well).
+Initialize a seed with data from "/dev/urandom". The sv[] and ev[] vectors are set to constant values (that I have sourced from "/dev/urandom" as well).
 
 ### rs_copy()
 
-Copies a seed and its sv and ev vectors from source to target. NOTE that if you store a seed, you have to store the entire structure, unless the sv and ev vectors are unchanged from the default.
+Copies a seed and its sv[] and ev[] vectors from source to target. NOTE that if you store a seed, you have to store the entire structure, unless the sv[] and ev[] vectors are unchanged from the default.
 
 ### rs_south()
 
@@ -67,5 +67,5 @@ Moves a seed "east", i.e. apply algorithm for dimension 2.
 
 ### rs_print()
 
-Print the contents of the core seed value to standard output. The sv and ev vector contents are NOT output at this time.
+Print the contents of the core seed value to standard output. The sv[] and ev[] vector contents are NOT output at this time.
 
